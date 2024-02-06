@@ -1,7 +1,7 @@
 import { NAV_LINKS } from "@/constants"
 import Image from "next/image"
 import Link from "next/link"
-import Button from "./atoms/Button"
+import Button from "../atoms/Button"
 
 const Navbar = () => {
   return (
@@ -29,7 +29,7 @@ const Navbar = () => {
       </div>
 
       <Image
-        src="menubar.svg"
+        src="menu.svg"
         alt="menu"
         width={32}
         height={32}

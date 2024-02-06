@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+// import Footer from "@/components/Footer";
+import Navbar from "@/components/molecules/Navbar";
+import Footer from "@/components/molecules/Footer";
 
 
 export const metadata: Metadata = {
@@ -17,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-      <Navbar />
+        <Navbar />
         <main className="relative overflow-hidden">
           {children}
         </main>
